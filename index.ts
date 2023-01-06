@@ -5,7 +5,7 @@ import './style.css';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
-sayHello(3);
+sayHello(add(1, 4));
 
 let x = add(10, 20);
 console.log(x);
