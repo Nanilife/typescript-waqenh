@@ -9,7 +9,7 @@ sayHello(3);
 
 function sayHello(howManyTimes: number): void {
   for (let i = 0; i < howManyTimes; i++) {
-    console.log('Hallo Welt!');
+    console.log('hello world');
   }
 }
 
